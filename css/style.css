@@ -1,0 +1,184 @@
+:root {
+    --brand-color: #ff6c00;
+    --black-color: #303030;
+    --white-color: #fff;
+    --grey-color: rgba(157, 164, 189, 0.60);
+    --content-color: #555;
+
+
+    --text-font-family: "Open Sans", sans-serif;
+    --header-font-family: "Raleway", sans-se rif;
+}
+
+/* gobal styles */
+body {
+    font-family: var(--text-font-family);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Clases*/
+.social-media-link {
+    color: var(--black-color);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.2px;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+    color: var(--brand-color);
+}
+
+/* TODO  replace with image background */
+.hero-content {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.nav-link {
+    color: var(--white-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--brand-color);
+}
+
+.address-phone-number {
+    color: var(--white-color) font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.address-phone-number:hover,
+.address-phone-number:focus {
+    color: var(--brand-color);
+}
+
+.book-service-button {
+    background-color: none;
+    color: var(--white-color) border-color: var(--brand-color);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.book-service-button-light {
+    color: var(--white-color)
+}
+
+.book-service-button-dark {
+    color: var(--black-color)
+}
+
+.book-service-button:hover,
+.book-service-button:focus {
+    color: var(--brand-color);
+}
+
+.subtitle {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.subtitle-dark {
+    color: var(--black-color);
+}
+
+.subtitle-light {
+    color: var(--subtitle-grey-color)
+}
+
+.hero-header {
+    color: var(--white-color);
+    font-family: var(--header-font-family);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+.header {
+    font-family: var(--header-font-family);
+     font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+
+.header-dark {
+    color: var(--black-color)
+}
+
+.header-light {
+    color: var(--white-color)
+}
+
+.hero-contro-buttons {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+
+    cursor: pointer;
+}
+
+.hero-contro-buttons-dark {
+    color: var(--grey-color)
+}
+
+.hero-contro-buttons-light {
+    color: var(--white-color)
+}
+
+.about-content-1 {
+    color: var(--content-color);
+    font-size: 18px;
+
+    line-height: 30px;
+    /* 166.667% */
+    letter-spacing: 0.36px;
+
+
+}
+
+.about-content-2 {
+    color: var(--content-color);
+    font-size: 14px;
+    line-height: 26px;
+    /* 185.714% */
+    letter-spacing: 0.28px;
+
+
+}
